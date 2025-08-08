@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    background-color: beige;
+    padding: 10px;
+
+    /* Estruturar o leoiaute com Grid */
+
+    display: grid;
+
+
+                        /* 1° coluna 2° colunas */
+    grid-template-columns: 1fr 4fr;
+
+    /* row column */
+    gap: 0px 100px ; 
+   
+}
+
+#logo{
+    background-color: black;
+    height: 100px;
+
+
+}
+
+#menu_principal{
+
+    background-color: aqua;
+    height: 100px;
+
+    display: grid;
+
+    grid-template-columns: 1fr ;
+
+            /* Align(vertical) justify(honrizontal) */
+
+    place-items: center end ;
+    
+}
+
+#itens_menu{
+    background-color: rgb(4, 40, 241);
+    height: 40px;
+    width: 60%;
+    
+    
+}
+
+#quem_sou{
+    background-color: bisque;
+    padding: 10px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
+}
+
+#informacoes_texto{
+    background-color: rgb(8, 12, 255);
+    padding: 10px;
+    display: grid;
+    border: 2px solid red;
+
+    grid-template-columns: 1fr;
+
+    /* tamanho das linhas em ordem  */
+    grid-template-rows: 3fr 1fr 1fr ;
+
+    gap: 10px 0px;
+}
+
+#titulo_informacoes{
+    background-color: azure;
+    
+}
+
+#botao_informacoes{
+    background-color: red;
+    
+
+}
+
+#redes_sociais_informacoes{
+
+    background-color: black;
+    padding: 10px;
+
+    display: grid;
+
+    grid-template-columns: 50px 50px 50px;
+    place-items: center start;
+    gap: 10px;
+}
+
+.redes_sociais{
+    background-color: rgb(250, 138, 1);
+
+    height: 50px;
+    width: 50px;
+}
+
+#foto{
+    background-color: aquamarine;
+}
+
+#rodape{
+    background-color: black;
+    height: 400px;
+
+    display: grid;
+
+    grid-template-columns: 100%; 
+    place-items: center center;
+}
+
+#marlon{
+    background-color: azure;
+    height: 70px;
+    width: 500px;
+}
+
+#redes_sociais_atividade{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center center;
+    gap: 10px;
+}
+
+#facebook{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+}
+
+#instagram{
+    background-color: rgb(252, 0, 0);
+    height: 30px;
+    width: 30px;
+}
+
+#twiteer{
+    background-color: rgb(255, 239, 17);
+    height: 30px;
+    width: 30px;
+}
+
+#informacoes{
+    background-color: aqua;
+    height: 30px;
+    width: 300px;
+}
+
+#cabecalho2{
+    background-color: beige;
+    padding: 70px;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    place-items: center;
+
+}
+
+#sobre{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+}
+
+#sobre_marlon{
+    background-color: rgb(29, 191, 255);
+    height: 400px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 0px 10px;
+
+
+}
+
+#foto_atividade{
+    background-color: rgb(218, 6, 6) ;
+    
+}
+
+#texto_atividade{
+    background-color: blue;
+    
+}
+
+#cabecalho3{
+    background-color: beige;
+    padding: 70px;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    place-items: center;
+    
+}
+
+#skills{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+}
+
+#profissional{
+    background-color: blueviolet;
+    height: 100px;
+   
+}
+
+#foto{
+    background-color: rgb(0, 0, 0);
+    
+    
+}
