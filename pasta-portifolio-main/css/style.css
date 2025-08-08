@@ -215,9 +215,26 @@
 
 #profissional{
     background-color: blueviolet;
-    height: 100px;
+    height: 400px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
    
 }
+
+#assunto{
+    background-color: black;
+    
+}
+
+#foto_3{
+    background-color: aqua;
+    
+}
+
+
 
 #foto{
     background-color: rgb(0, 0, 0);
